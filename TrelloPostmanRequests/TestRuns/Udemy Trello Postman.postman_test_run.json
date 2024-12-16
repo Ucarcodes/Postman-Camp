@@ -1,0 +1,208 @@
+{
+	"id": "576eb18b-8938-487b-9b3c-f8c8ef6f39a6",
+	"name": "Udemy Trello Postman",
+	"timestamp": "2024-12-16T15:51:55.331Z",
+	"collection_id": "40163294-8bf99bb5-c64c-4c13-a736-fc5531c310c8",
+	"folder_id": 0,
+	"environment_id": "40163294-b846eb60-cb65-4276-a41d-77db47ae0790",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-16T15:51:52.200Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "50f00c91-0723-486b-b427-578ead0afd5a",
+			"name": "TrelloPanoOlusturma",
+			"url": "https://api.trello.com/1/boards/?name=TrelloYeniPano&key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B",
+			"time": 665,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				665
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c5aa1f17-3ce2-4887-a3a6-d14c0b6dbc90",
+			"name": "TrelloListeOlusturma",
+			"url": "https://api.trello.com/1/lists?name=Testing&idBoard=67604c981f2c8d3cb6b7443e&key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B",
+			"time": 264,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				264
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fae372a3-dad1-47b6-aba1-2ea8a565d2f7",
+			"name": "TrelloKartOlusturma",
+			"url": "https://api.trello.com/1/cards?idList=67604c98950fb4763ef657b3&key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B&name=Postman Kart Oluşturma 2",
+			"time": 345,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				345
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8ed4f096-5d7e-4e6f-b590-fd7efd02a8d7",
+			"name": "TrelloKartGuncelleme",
+			"url": "https://api.trello.com/1/cards/67604c999094ad98ddbc5113?key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B&name=Kart İsmi Güncellendi.",
+			"time": 271,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				271
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "899b40d9-fa16-4784-ad9d-ca85cc9a0310",
+			"name": "TrelloKartSilme",
+			"url": "https://api.trello.com/1/cards/67604c999094ad98ddbc5113?key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B",
+			"time": 608,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				608
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7d185db8-22b6-4ed7-b763-154a3a24e42a",
+			"name": "TrelloLabelOlusturma",
+			"url": "https://api.trello.com/1/labels?name=Ornek Label 2&color=black&idBoard=67604c981f2c8d3cb6b7443e&key=7f13b8569c1e3d5534228dd318b91456&token=ATTAf481f5c6da2663888cf63872968f6b04c58a8e54ef7eef2ce060e60b8a595d409928DF2B",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2432,
+	"collection": {
+		"requests": [
+			{
+				"id": "50f00c91-0723-486b-b427-578ead0afd5a",
+				"method": "POST"
+			},
+			{
+				"id": "c5aa1f17-3ce2-4887-a3a6-d14c0b6dbc90",
+				"method": "POST"
+			},
+			{
+				"id": "fae372a3-dad1-47b6-aba1-2ea8a565d2f7",
+				"method": "POST"
+			},
+			{
+				"id": "8ed4f096-5d7e-4e6f-b590-fd7efd02a8d7",
+				"method": "PUT"
+			},
+			{
+				"id": "899b40d9-fa16-4784-ad9d-ca85cc9a0310",
+				"method": "DELETE"
+			},
+			{
+				"id": "7d185db8-22b6-4ed7-b763-154a3a24e42a",
+				"method": "POST"
+			}
+		]
+	}
+}
